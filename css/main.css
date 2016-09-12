@@ -106,24 +106,26 @@ html {
     max-width: 1200px;
     position: center;
     font-family: sans-serif;
-
 }
 
 .grid {
     content: "";
     display: table;
     clear: both;
+    text-align: center;
+    margin: auto;
+    /* http://www.w3schools.com/css/css_align.asp */
 }
 
 .image {
     float: left;
     border: 2px solid black;
-    padding: 2.5em;
+    padding: 1em 2.5em;
     margin: .5em;
     position: relative;
     display: block;
     overflow: hidden;
-    background-color: hsla(154, 0%, 100%, 0.75);
+    background-color: #ffffff;
 }
 
 img {
@@ -135,15 +137,21 @@ img {
 
 .page-header {
     width: 100%;
-    height: 129px;
+    height: 130px;
     font-family: serif;
     text-align: center;
     margin: 0;
 }
 
 h1 {
-    font-size: 1.5em;
+    font-size: 4em;
     text-align: center;
+    font-family: 'Great Vibes', cursive;
+    font-weight: normal;
+    padding: .25em;
+    margin: 0;
+    color: #ffffff;
+    background-color: #171d42;
 }
 
 
